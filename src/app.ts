@@ -2,10 +2,10 @@ import express from 'express';
 import compression from 'compression';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import routes from './routes';
 import errorHandler from './middleware/errorHandler';
 import notFound from './middleware/notFound';
 import { httpLogger } from './middleware/httpLogger';
+import routes from './routes';
 
 const app = express();
 
