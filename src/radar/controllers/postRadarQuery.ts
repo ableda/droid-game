@@ -1,6 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
 import { RadarPostBody } from '../types/radarPostBody';
-
 import TargetService from '../services/targetService';
 
 export const postRadarQuery = (req: Request, res: Response, next: NextFunction): void => {
